@@ -1,7 +1,7 @@
 {
   "name": "parcel-plugin-pug-client",
   "version": "1.0.0",
-  "description": "Parcel plugin to use pug templates on the client side",
+  "description": "Parcel plugin to compile pug templates using pug.compileClient",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,14 @@
   ],
   "dependencies": {
     "pug": "^2.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkg20001/parcel-plugin-pug-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkg20001/parcel-plugin-pug-client/issues"
+  },
+  "homepage": "https://github.com/mkg20001/parcel-plugin-pug-client#readme"
 }
