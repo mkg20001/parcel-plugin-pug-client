@@ -34,7 +34,7 @@ class PugAsset extends Asset {
       }
     }
 
-    return compiled + ';module.exports=template;'
+    return compiled.body + ';module.exports=template;'
   }
 }
 
